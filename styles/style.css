@@ -17,7 +17,7 @@ h2{
     font-size: 2.5rem;
     color: #66BFBF;
     font: normal;
-    
+
 }
 h3{
     font-family: "Montserrat", sans-serif;
@@ -30,12 +30,12 @@ body{
 }
 .top_cloud{
     position: absolute;
-    right: 300px;
+    right: 18%;
     top: 50px;
 }
 .bottom_cloud{
     position: absolute;
-    left: 300px;
+    left: 18%;
     bottom: 300px;
 }
 
@@ -93,7 +93,7 @@ hr {
     cursor: pointer;
     text-align: center;
  }
- 
+
  .btn:hover {
     border: solid #337FED 1px;
     background: #1E62D0;
@@ -120,5 +120,3 @@ hr {
 .footer-end{
     color: #EAF6F6;
 }
-
-
