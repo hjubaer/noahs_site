@@ -17,7 +17,7 @@ h2{
     font-size: 2.5rem;
     color: #66BFBF;
     font: normal;
-    
+
 }
 h3{
     font-family: "Montserrat", sans-serif;
@@ -29,14 +29,14 @@ body{
     font-family: "Merriweather Sans", sans-serif;
 }
 .top_cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
+    position: relative;
+    right: 18%;
+    top: 10%;
 }
 .bottom_cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+    position: relative;
+    left: 18%;
+    top: 20%;
 }
 
 .pro{
@@ -52,12 +52,17 @@ body{
 
 .skill-img{
     float: left;
-    margin-right: 30px;
+    width:calc(7vw);
+    max-width: 128px;
+    margin-right: 16px;
+
 }
 
 .skill-img2{
     float: right;
-    margin-left: 30px;
+    width:calc(7vw);
+    max-width: 128px;
+    margin-left: 16px;
 }
 
 
@@ -93,7 +98,7 @@ hr {
     cursor: pointer;
     text-align: center;
  }
- 
+
  .btn:hover {
     border: solid #337FED 1px;
     background: #1E62D0;
@@ -107,9 +112,11 @@ hr {
     border-radius: 20px;
     text-decoration: none;
  }
+
 .bottom-container{
     background-color: #66BFBF;
-    padding:40px
+    padding:40px;
+    width:calc(100vw);
 }
 
 .footer-link {
@@ -121,4 +128,25 @@ hr {
     color: #EAF6F6;
 }
 
+div {
+  width: 100%;
+  margin: auto;
+}
 
+img {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.mountain {
+  width:calc(30vw);
+  max-width: 357px;
+}
+
+img.self {
+  width:calc(15vw);
+  max-width: 190px;
+}
